@@ -18,6 +18,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 1440px;
 }
 
 li {
@@ -27,12 +28,10 @@ li {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  width: 1440px;
-  height: 696px;
+  max-width: 1440px;
+  margin: 0;
   padding: 24px 156px;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   row-gap: 24px;
   column-gap: 24px;
   background: #fff;
